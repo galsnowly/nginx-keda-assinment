@@ -1,0 +1,47 @@
+# Terraform related files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+# Exclude .terraform and Terragrunt cache directories
+.terraform/
+.terragrunt-cache/
+
+# Terraform plan files
+*.tfplan
+
+# Local .kube config
+.kube/config
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore AWS credentials
+.aws/credentials
+.aws/config
+
+# Ignore sensitive JSON files
+*.json
+
+# Ignore key files
+*.pem
+*.key
+*.cer
+
+# Exclude environment-specific configuration files
+.env
+.env.*
