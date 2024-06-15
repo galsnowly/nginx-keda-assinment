@@ -10,6 +10,7 @@ crash.log
 # Exclude .terraform and Terragrunt cache directories
 .terraform/
 .terragrunt-cache/
+.terraform.lock.hcl
 
 # Terraform plan files
 *.tfplan
