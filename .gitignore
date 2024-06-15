@@ -11,6 +11,7 @@ crash.log
 .terraform/
 .terragrunt-cache/
 **/.terraform.lock.hcl
+.terraform.lock.hcl
 
 # Terraform plan files
 *.tfplan
